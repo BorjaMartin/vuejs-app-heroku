@@ -61,7 +61,7 @@ En la estructura del proyecto he separado la parte back-end, con el poyecto de n
 
 En esta primera versión de la app en el modelo de Customer definen ya unos datos con los que vamos a realizar las diferentes pruebas y en el modelo de Trainer, se declara un array vacío en el que luego cargaremos los diferentes objetos, en este caso los datos de entrenadores con sus clientes asignados.
 
-**routes:**  En el caso de trabajar con base de datos, aquí se definen ****las rutas para los diferentes métodos definidos en nuestro API.
+**routes:**  En el caso de trabajar con base de datos, aquí se definen las rutas para los diferentes métodos definidos en nuestro API.
 
 **app.js:** En el caso de trabajar con base de datos, aquí se rellenan las configuraciones del servidor
 
@@ -103,14 +103,14 @@ Cuenta con dos botones:
 
 **ModalCustomer.vue:** Pantalla modal con la información de los clientes registrados en la aplicación.
 
-**ResultTab.vue: P**antalla con dos pestañas
+**ResultTab.vue:** Pantalla con dos pestañas
 
 - Pestaña **Entrenadores**: Referencia al componente **ResutlCustomer.vue**
 - Pestaña **Valoración del conjunto:** Referencia al componente **SatisfactionCustomer.vue**
 
-**ResultCustomer.vue:** Pantalla donde se mostrará los datos de los entrenadores con los clientes que les han sido asignados. ****
+**ResultCustomer.vue:** Pantalla donde se mostrará los datos de los entrenadores con los clientes que les han sido asignados.
 
-**SatisfactionCustomer.vue:** Pantalla donde se mostrará una lista de los clientes registrados en la aplicación y tienen asignado su entrenador, con los datos de satisfacción correspondiente a cada cliente. ****
+**SatisfactionCustomer.vue:** Pantalla donde se mostrará una lista de los clientes registrados en la aplicación y tienen asignado su entrenador, con los datos de satisfacción correspondiente a cada cliente.
 
 **Header.vue:** La cabecera de la aplicación web que será común a todas las visatas de la web y donde se muestra un logo de la  aplicación y con un menú de navegación para cambiar entre las diferentes vistas de la aplicación
 
