@@ -97,7 +97,7 @@ export default {
       trainer: new Trainer("", 0, 0, this.customers),
       TrainersStatic: TrainersModel,
       CustomersStatic: CustomersModel,
-      /*
+      
       trainers: [
         { title: "Entrenador 1", name: "", assessment: 0, maxCustomer: 0 , complete:false},
         { title: "Entrenador 2", name: "", assessment: 0, maxCustomer: 0 , complete:false},
@@ -105,8 +105,8 @@ export default {
         { title: "Entrenador 4", name: "", assessment: 0, maxCustomer: 0 , complete:false},
         { title: "Entrenador 5", name: "", assessment: 0, maxCustomer: 0 , complete:false},
       ],
-      */
-
+      
+      /*
       trainers: [
         {
           title: "Entrenador 1",
@@ -144,6 +144,7 @@ export default {
           complete: false,
         },
       ],
+      */
     };
   },
   methods: {
