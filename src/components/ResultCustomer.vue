@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="card-footer bg-grey">{{trainer.customer.length}} Clientes asignados</div>
+        <div class="card-footer bg-grey" style="height: -webkit-fill-available;">{{trainer.customer.length}} Clientes asignados</div>
       </div>
     </div>
   </div>
