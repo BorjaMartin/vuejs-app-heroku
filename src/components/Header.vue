@@ -2,21 +2,24 @@
   <header id="header">
     <div class="center">
       <!-- LOGO -->
-      <div id="logo" >
-          <a href="/mainConfig" v-on:click="goBack">
-        <img src="../assets/images/logo.png" class="app-logo" alt="Logotipo" />
-        <span id="brand">
-          <strong>App</strong>Trainers
-        </span>
-        </a>
+      <div id="logo">
+        <router-link to="/">
+          <img src="../assets/images/logo.png" class="app-logo" alt="Logotipo" />
+          <span id="brand">
+            <strong>App</strong>Trainers
+          </span>
+        </router-link>
       </div>
 
       <!-- MENU -->
       <nav id="menu">
-        
+        <ul>
+          <li>
+            <router-link to="/Result">Información de entrenadores</router-link>
+          </li>
+        </ul>
       </nav>
 
-      <!--LIMPIAR FLOTADOS-->
       <div class="clearfix"></div>
     </div>
   </header>
@@ -26,15 +29,8 @@
 export default {
   name: "Header",
   data() {
-    return {
-      
-    }
+    return {};
   },
-  methods:{
-    goBack() {
-       this.$router.push("/");
-    },
-
-  }
+  
 };
 </script>

@@ -7,10 +7,6 @@ var bodyParser = require('body-parser');
 //Eejecutar express (http)
 var app = express();
 
-//Cargar ficheros rutas
-var trainer_routes = require('./routes/trainer');
-var customer_routes = require('./routes/customer');
-
 //MiddLewares
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json()); //Convertir cualquier tipo de petición a json
@@ -24,11 +20,6 @@ app.use((req, res, next) => {
     res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
     next();
 });
-
-
-//Añadir prefijos a rutas / Cargar rutas
-app.use('/',trainer_routes);
-app.use('/',customer_routes);
 
 
 //Exportar modulo (fichero actual)

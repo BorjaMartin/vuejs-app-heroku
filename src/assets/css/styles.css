@@ -60,6 +60,42 @@
 }
 
 
+#brand {
+  display: block;
+  margin: 0px;
+  float: left;
+}
+
+#menu {
+  width: 70%;
+  float: right;
+  font-size: 18px;
+}
+
+#menu ul {
+  line-height: 85px;
+  width: 60%;
+  float: right;
+}
+
+#menu ul li {
+  display: inline-block;
+  list-style: none;
+  height: 46px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgb(221, 217, 217);
+  transition: 300ms all;
+}
+
+#menu a:hover, #menu .active {
+  color: rgb(221, 217, 217);
+}
+
 #footer {
   background: #292e35;
   width: 100%;

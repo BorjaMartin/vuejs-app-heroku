@@ -42,7 +42,7 @@ export default {
   methods: {
     getAssignCustomers() {
 
-        var clientesAsignados = this.CustomersStatic.filter(customer => customer.assign == true).sort((a,b) => (a.satisfaction > b.satisfaction) ? 1 : ((b.satisfaction > a.satisfaction) ? -1 : 0)); 
+        var clientesAsignados = this.CustomersStatic.filter(customer => customer.assign == true).sort((a,b) => (parseInt(a.satisfaction) < parseInt(b.satisfaction)) ? 1 : ((parseInt(b.satisfaction) < parseInt(a.satisfaction)) ? -1 : 0)); 
 
         this.customers = clientesAsignados;
        
