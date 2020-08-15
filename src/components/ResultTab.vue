@@ -7,19 +7,10 @@
         </b-tab>
         <b-tab title="Valoración del conjunto">
           <SatisfactionCustomer></SatisfactionCustomer>
-          <!--  
-           <div>
-              <b-table hover :fields="fields" :items="customers"></b-table>
-           </div>
-           -->
         </b-tab>
       </b-tabs>
     </b-card>
-     <b-button
-              v-on:click="goBack"
-              variant="secondary"
-              class="btn ml-2 mt-2 float-right"
-            >Volver</b-button>
+   
   </div>
   
 </template>
@@ -42,12 +33,7 @@ export default {
       
     }
   },
-  methods:{
-    goBack() {
-       this.$router.push("/");
-    },
-
-  }
+  
   
 };
 </script>

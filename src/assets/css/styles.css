@@ -3,11 +3,73 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+    color: #555e66;
+    
+    background: #292e35;
   }
 
   #config {
-    margin-bottom: 10vh;
-    margin-top: 10vh;
+    background: white;
+    border: 1px ;
+    border-radius: 9px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    padding: 10px;
   }  
+
+  #header {
+    height: 120px;
+    width: 100%;
+    background: #292e35;
+    color: rgb(221, 217, 217);
+
+    margin-bottom: 12px;
+}
+
+.center {
+  width: 75%;
+  margin: 0px auto;
+}
+
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+#logo {
+  width: 30%;
+  font-size: 30px;
+  float: left;
+  margin-top: 35px;
+}
+
+#logo a:link, a:visited, a:active, a:hover  {
+  text-decoration:none;
+  color: rgb(221, 217, 217);
+}
+
+
+#logo img {
+  display: block;
+  float: left;
+  height: 60px;
+  margin-top: -9px;
+  margin-right: 10px;
+  animation: latir infinite 5s linear;
+}
+
+
+#footer {
+  background: #292e35;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: rgb(221, 217, 217);
+  margin-top: 12px;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 0px;
+}

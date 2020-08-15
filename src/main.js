@@ -14,6 +14,8 @@ import MainConfig from './components/MainConfig.vue';
 import ResultCustomer from './components/ResultCustomer.vue'
 import ResultTab from './components/ResultTab.vue'
 
+
+
 Vue.config.productionTip = false
 
 Vue.use(VueRouter);
